@@ -1,0 +1,5 @@
+version: '3'
+services:
+  complex-system:
+    build: .
+    command: gcc src/main.c -o complex-system && ./complex-system
